@@ -4,7 +4,7 @@
   <groupId>com.maaven.practice</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.2</version>
+  <version>1.1</version>
   
   <dependencies>
     <dependency>
@@ -17,12 +17,12 @@
   <distributionManagement>
 
 		<repository>
-			<id>ARtech</id>
-			<url>http://localhost:8081/nexus/content/repositories/ARtech/</url>
+			<id>artech</id>
+			<url>http://localhost:8081/nexus/content/repositories/artech1/</url>
 		</repository>
 		<snapshotRepository>
-			<id>ARtech-snapshot</id>
-			<url>http://localhost:8081/nexus/content/repositories/ARtech_snapshot/</url>
+			<id>artech2</id>
+			<url>http://localhost:8081/nexus/content/repositories/artech2/</url>
 		</snapshotRepository>		
   </distributionManagement>
 </project>
